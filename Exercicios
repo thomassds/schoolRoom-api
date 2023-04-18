@@ -1,0 +1,8 @@
+Exercicios:
+    1 - Desenvolva um endpoint que ira buscar todos os Alunos em que o nome possui mais de 5 caracteres
+    2 - Desenvolva um endpoint que ira buscar apenas um aluno pelo Id
+
+    3 - Desenvolva um endpoint que ira buscar todos os Professores em que a idade seja maior do que 35 anos e de Aulas de matematica
+    4 - Desenvolva um endpoint onde ira retornar todos os Professores mas com um campo a mais chamado idade
+
+    5 - Desenvolva um endpoint onde ira calcular a media da idade de todas as pessoas da escola seja Aluno ou Professor
