@@ -34,6 +34,21 @@ class AlunoLogic {
 
     return resultado;
   }
+
+  buscarPorCaracteres(caracteres) {
+    const alunos = AlunoRepository.buscarTodos();
+
+    const resultado = alunos.filter((aluno) => aluno.nome.length > caracteres);
+
+    return resultado;
+  }
+
+  buscarPorId(id) {
+    const alunos = AlunoRepository.buscarTodos();
+
+    const resultado = alunos.find((aluno) => aluno.id == id);
+    return resultado;
+  }
 }
 
 export default new AlunoLogic();

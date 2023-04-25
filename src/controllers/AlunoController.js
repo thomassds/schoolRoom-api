@@ -12,6 +12,22 @@ class AlunoController {
 
     return res.status(200).json(resultado);
   }
+
+  buscarPorCaracteres(req, res) {
+    const { caracteres } = req.params;
+
+    const resultado = AlunoLogic.buscarPorCaracteres(caracteres);
+
+    return res.status(200).json(resultado);
+  }
+
+  buscarPorId(req, res) {
+    const { id } = req.params;
+
+    const resultado = AlunoLogic.buscarPorId(id);
+
+    return res.status(200).json(resultado);
+  }
 }
 
 export default new AlunoController();

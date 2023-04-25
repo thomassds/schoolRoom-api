@@ -2,19 +2,19 @@ export const ProfessoresData = [
   {
     id: 1,
     nome: "Thomas",
-    nascimento: new Date("01/10/1999"),
+    nascimento: new Date("01/10/1967"),
     materia: "Portuges",
   },
   {
     id: 2,
     nome: "Heitor",
-    nascimento: new Date("09/18/2000"),
+    nascimento: new Date("09/18/1955"),
     materia: "Matematica",
   },
   {
     id: 3,
     nome: "Mike",
-    nascimento: new Date("05/05/2000"),
+    nascimento: new Date("05/05/1977"),
     materia: "Portuges",
   },
   {
